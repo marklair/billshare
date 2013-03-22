@@ -1,0 +1,90 @@
+Users
+	Create (Registration)
+		admin - all
+		hoh - hoh-resident
+		resident = resident (invite only)
+	Read
+		admin - all
+		hoh - hoh - resident (only in same household)
+	Update
+		admin - all
+	Destroy
+		admin - all
+
+Households
+	Create
+		admin - all
+
+	Read
+		admin - all
+
+	Update
+		admin - all
+
+	Destroy
+
+
+Pay Freqs
+	Create
+		admin - all
+	Read
+		admin - all
+	Update
+		admin - all
+	Destroy
+		admin - all
+
+Posts
+	Create
+		admin - all
+	Read
+		admin - all
+	Update
+		admin - all
+	Destroy
+		admin - all
+
+Comments
+	Create
+		admin - all
+	Read
+		admin - all
+	Update
+		admin - all
+	Destroy
+		admin - all
+
+Billing Cycles
+	Create
+		admin - all
+	Read
+		admin - all
+
+	Update
+		admin - all
+	Destroy
+		admin - all
+
+
+Shared Expenses
+	Create
+		admin - all
+
+	Read
+		admin - all
+	Update
+		admin - all
+	Destroy
+		admin - all
+
+
+Personal Expenses
+	Create
+		admin - all
+	Read
+		admin - all
+	Update
+		admin - all
+	Destroy
+		admin - all
+

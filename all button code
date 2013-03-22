@@ -1,0 +1,59 @@
+all button code:
+<!---- COMMENTS ---->
+<li><?php echo $this->Html->link(__('List Comments'), array('action' => 'index'));?></li>
+<li><?php echo $this->Html->link(__('List Comments'), array('controller' => 'comments', 'action' => 'index')); ?> </li>
+<li><?php echo $this->Html->link(__('New Comment'), array('action' => 'add')); ?></li>
+<li><?php echo $this->Html->link(__('Edit Comment'), array('action' => 'edit', $comment['Comment']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete Comment'), array('action' => 'delete', $this->Form->value('Comment.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Comment.id'))); ?></li>
+<li><?php echo $this->Form->postLink(__('Delete Comment'), array('action' => 'delete', $comment['Comment']['id']), null, __('Are you sure you want to delete # %s?', $comment['Comment']['id'])); ?> </li>
+
+<!---- USERS ---->
+<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
+<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
+<li><?php echo $this->Html->link(__('Edit User'), array('action' => 'edit', $user['User']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete User'), array('action' => 'delete', $user['User']['id']), null, __('Are you sure you want to delete # %s?', $user['User']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete User'), array('action' => 'delete', $this->Form->value('User.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('User.id'))); ?></li>
+
+<!---- HOUSEHOLDS ---->
+<li><?php echo $this->Html->link(__('List Households'), array('controller' => 'households', 'action' => 'index')); ?> </li>
+<li><?php echo $this->Html->link(__('New Household'), array('controller' => 'households', 'action' => 'add')); ?> </li>
+<li><?php echo $this->Html->link(__('Edit Household'), array('action' => 'edit', $household['Household']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete Household'), array('action' => 'delete', $this->Form->value('Household.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Household.id'))); ?></li>
+<li><?php echo $this->Form->postLink(__('Delete Household'), array('action' => 'delete', $household['Household']['id']), null, __('Are you sure you want to delete # %s?', $household['Household']['id'])); ?> </li>
+
+<!---- POSTS ---->
+<li><?php echo $this->Html->link(__('List Posts'), array('controller' => 'posts', 'action' => 'index')); ?> </li>
+<li><?php echo $this->Html->link(__('New Post'), array('controller' => 'posts', 'action' => 'add')); ?> </li>
+<li><?php echo $this->Html->link(__('Edit Post'), array('action' => 'edit', $post['Post']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete Post'), array('action' => 'delete', $post['Post']['id']), null, __('Are you sure you want to delete # %s?', $post['Post']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete Post'), array('action' => 'delete', $this->Form->value('Post.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Post.id'))); ?></li>
+
+<!---- SHARED EXPENSES ---->
+<li><?php echo $this->Html->link(__('List Shared Expenses'), array('controller' => 'shared_expenses', 'action' => 'index')); ?> </li>
+<li><?php echo $this->Html->link(__('New Shared Expense'), array('controller' => 'shared_expenses', 'action' => 'add')); ?> </li>
+<li><?php echo $this->Html->link(__('Edit Shared Expense'), array('action' => 'edit', $sharedExpense['SharedExpense']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete Shared Expense'), array('action' => 'delete', $sharedExpense['SharedExpense']['id']), null, __('Are you sure you want to delete # %s?', $sharedExpense['SharedExpense']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete Shared Expense'), array('action' => 'delete', $this->Form->value('SharedExpense.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('SharedExpense.id'))); ?></li>
+
+<!---- PERSONAL EXPENSES ---->
+<li><?php echo $this->Html->link(__('List Personal Expenses'), array('action' => 'index'));?></li>
+<li><?php echo $this->Html->link(__('New Personal Expense'), array('action' => 'add')); ?> </li>
+	<?php echo $this->Html->link(__('View'), array('action' => 'view', $personalExpense['PersonalExpense']['id'])); ?>
+<li><?php echo $this->Html->link(__('Edit Personal Expense'), array('action' => 'edit', $personalExpense['PersonalExpense']['id'])); ?> </li>
+<li><?php echo $this->Form->postLink(__('Delete Personal Expense'), array('action' => 'delete', $this->Form->value('PersonalExpense.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('PersonalExpense.id'))); ?></li>
+<li><?php echo $this->Form->postLink(__('Delete Personal Expense'), array('action' => 'delete', $personalExpense['PersonalExpense']['id']), null, __('Are you sure you want to delete # %s?', $personalExpense['PersonalExpense']['id'])); ?> </li>
+
+<!---- PAYFREQS ---->
+<li><?php echo $this->Html->link(__('List Payfreqs'), array('action' => 'index'));?></li>
+<li><?php echo $this->Html->link(__('New Payfreq'), array('action' => 'add')); ?></li>
+<li><?php echo $this->Html->link(__('Edit Payfreq'), array('action' => 'edit', $payfreq['Payfreq']['id'])); ?>
+<li><?php echo $this->Form->postLink(__('Delete Payfreq'), array('action' => 'delete', $this->Form->value('Payfreq.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Payfreq.id'))); ?></li>
+<li><?php echo $this->Form->postLink(__('Delete Payfreq'), array('action' => 'delete', $payfreq['Payfreq']['id']), null, __('Are you sure you want to delete # %s?', $payfreq['Payfreq']['id'])); ?>
+
+<!---- BILLING CYCLES ---->
+<li><?php echo $this->Html->link(__('List Billingcycles'), array('controller' => 'billingcycles', 'action' => 'index')); ?> </li>
+<li><?php echo $this->Html->link(__('New Billingcycle'), array('controller' => 'billingcycles', 'action' => 'add')); ?> </li>
+	<?php echo $this->Html->link(__('View'), array('action' => 'view', $billingcycle['Billingcycle']['id'])); ?>
+	<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $billingcycle['Billingcycle']['id'])); ?>
+	<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $billingcycle['Billingcycle']['id']), null, __('Are you sure you want to delete # %s?', $billingcycle['Billingcycle']['id'])); ?>
+<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Billingcycle.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Billingcycle.id'))); ?></li>

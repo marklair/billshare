@@ -1,0 +1,6 @@
+[13-Feb-2013 17:26:38 UTC] PHP Fatal error:  Class 'Household' not found in /home/stltest/public_html/billshare/app/Controller/UsersController.php on line 148
+[13-Feb-2013 17:28:00 UTC] PHP Fatal error:  Class 'Household' not found in /home/stltest/public_html/billshare/app/Controller/UsersController.php on line 148
+[13-Feb-2013 21:05:41 UTC] PHP Fatal error:  Class 'Household' not found in /home/stltest/public_html/billshare/app/Controller/UsersController.php on line 148
+[13-Feb-2013 21:17:10 UTC] PHP Fatal error:  Class 'Household' not found in /home/stltest/public_html/billshare/app/Controller/UsersController.php on line 148
+[13-Feb-2013 21:34:54 UTC] PHP Fatal error:  Class 'Household' not found in /home/stltest/public_html/billshare/app/Controller/UsersController.php on line 148
+[13-Feb-2013 21:40:16 UTC] PHP Fatal error:  Class 'Household' not found in /home/stltest/public_html/billshare/app/Controller/UsersController.php on line 148
